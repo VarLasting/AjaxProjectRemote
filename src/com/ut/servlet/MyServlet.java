@@ -1,5 +1,5 @@
 //hello
-
+//hello remote
 package com.ut.servlet;
 
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class MyServlet extends HttpServlet {
 		String mobile = request.getParameter("mobile");
 		
 		PrintWriter out = response.getWriter();
-		//假设数据库的手机号为13888888888
+		//录脵脡猫脢媒戮脻驴芒碌脛脢脰禄煤潞脜脦陋13888888888
 		if("138abc".equals(mobile)){
 			out.write("true");
 			//out.write(" {\"msg\":\"true\"} ");
